@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #FFC66C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color:#FFFFFF;
+		
+}
+
+header{
+	
+	width: 900px;
+	height: 200px;
+	background-color: #F92A93;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+	
+}
+
+section{
+	
+	width: 900px;
+	background-image: url('images/Background.png');
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	background-position: top left;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+nav{
+	float: left;
+	width: 250px;
+}
+
+article{
+	
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer{
+	
+	text-align: center;
+	width: 900px;
+	height: 70 px;
+	background-color: #72ACF2;
+	margin: auto;
+}
+
+.logoleft {
+	
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+	
+}
+
+nav a {
+	
+	border: 6px inset #000000;
+	background-color: #033F86;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: #FCFCFC;
+	text-decoration: none;
+	padding-left: 10px;
+	margin-left: 20px;
+	font-family: Times New Roman;
+	
+}
+
+nav a:hover {
+	
+	color:#FA007F;
+	border: 2px outset #000000;
+} 
+
+h1{
+	
+	color:#FFFFFF;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{
+	color:#FFFFFF;
+}
+
+	#thumbs, #image {
+		width: 900px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+		
+		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center
+
+			
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+		
+		width: 210px;
+		height: auto;
+		display: inline-block;
+
+		
+	}
+
+	#image{
+		
+		max-width: 100%;
+		text-align: center;
+		overflow: visible;
+		height: auto;
+
+
+	}
+
+	.instructions{
+		font-style:italic;
+	}
